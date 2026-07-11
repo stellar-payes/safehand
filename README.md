@@ -8,10 +8,6 @@ Informal P2P commerce (social-media sellers, freelance gigs, used goods) runs on
 ## Solution
 General-purpose escrow contracts on Soroban with milestones, deadlines, mutual release, and pluggable dispute resolution — plus a dead-simple app: create a deal link, share it on WhatsApp, both parties see the same state.
 
-## Why it gets accepted
-- **GrantFox:** GrantFox itself pays contributors through smart escrows on Stellar — this is squarely inside the ecosystem's proven pattern, and the escrow engine is reusable by other Stellar apps.
-- **Drips:** `escrow-core` as a dependency for marketplaces, freelance platforms, and bounty tools. `FUNDING.json` everywhere.
-
 ## Monorepo Structure
 ```
 safehand/
